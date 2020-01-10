@@ -29,7 +29,7 @@ contract SocialNetwork {
   );
 
   constructor() public {
-    name = "Dapp University Social Network";
+    name = "My Social Network";
   }
    function createPost(string memory _content) public {
       //validate the content string
